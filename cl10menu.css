@@ -1,0 +1,26 @@
+.menu li{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+#main-nav li{
+    width: 120px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.colores
+{
+  height: 150px;
+  position: relative;
+
+}
+.sub-menu
+{
+position: absolute;
+bottom: 0px;
+}
+
+

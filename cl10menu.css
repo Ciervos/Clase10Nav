@@ -2,6 +2,7 @@
     display: inline-block;
     position: relative;
     cursor: pointer;
+    background-color: MidnightBlue;
 }
 #main-nav li{
     width: 120px;
@@ -9,12 +10,32 @@
     border: 1px solid black;
     text-align: center;
     padding: 5px;
+    color: white;
 }
 
-.sub-menu
-{
-position: absolute;
-top: 29px;
+
+.menu>li a {
+    text-decoration: none;
+    color: white;
 }
+
+.menu li ul {
+    position: absolute;
+    top: 29px;
+    right: -1px;
+    display: none;
+    transition: all 0.4s linear;
+}
+
+.menu li:hover ul{
+    display:block;
+ }
+
+.menu li:hover {
+ background-color:CornflowerBlue;
+}
+
+
+
 
 
